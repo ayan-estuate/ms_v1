@@ -4,10 +4,18 @@ Folder PATH listing
 Volume serial number is 8691-F14F
 D:.
 |   .gitignore
+|   ms-v1.iml
+|   README.md
 |   structure.txt
 |   
 +---.idea
 |       .gitignore
+|       compiler.xml
+|       encodings.xml
+|       jarRepositories.xml
+|       misc.xml
+|       modules.xml
+|       vcs.xml
 |       workspace.xml
 |       
 +---services
@@ -25,7 +33,7 @@ D:.
 |   |       +---main
 |   |       |   +---java
 |   |       |   |   \---com
-|   |       |   |       \---eazybytes
+|   |       |   |       \---estuate
 |   |       |   |           \---accounts
 |   |       |   |               |   AccountsApplication.java
 |   |       |   |               |   
@@ -75,7 +83,8 @@ D:.
 |   |       \---test
 |   |           \---java
 |   |               \---com
-|   |                   \---eazybytes
+|   |                   +---eazybytes
+|   |                   \---estuate
 |   |                       \---accounts
 |   |                               AccountsApplicationTests.java
 |   |                               
@@ -94,7 +103,7 @@ D:.
 |   |       +---main
 |   |       |   +---java
 |   |       |   |   \---com
-|   |       |   |       \---eazybytes
+|   |       |   |       \---estuate
 |   |       |   |           \---cards
 |   |       |   |               |   CardsApplication.java
 |   |       |   |               |   
@@ -140,7 +149,8 @@ D:.
 |   |       \---test
 |   |           \---java
 |   |               \---com
-|   |                   \---eazybytes
+|   |                   +---eazybytes
+|   |                   \---estuate
 |   |                       \---cards
 |   |                               CardsApplicationTests.java
 |   |                               
@@ -158,7 +168,7 @@ D:.
 |           +---main
 |           |   +---java
 |           |   |   \---com
-|           |   |       \---eazybytes
+|           |   |       \---estuate
 |           |   |           \---loans
 |           |   |               |   LoansApplication.java
 |           |   |               |   
@@ -204,11 +214,13 @@ D:.
 |           \---test
 |               \---java
 |                   \---com
-|                       \---eazybytes
+|                       +---eazybytes
+|                       \---estuate
 |                           \---loans
 |                                   LoansApplicationTests.java
 |                                   
 \---src
+
 
 
 ```
